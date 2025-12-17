@@ -74,7 +74,7 @@
      <string notr="true">color: rgb(0,0,255);</string>
     </property>
     <property name="text">
-     <string>Registro de Pedidos</string>
+     <string>Registro de Venta</string>
     </property>
    </widget>
    <widget class="QComboBox" name="cboCategoria">
@@ -379,7 +379,7 @@
      <rect>
       <x>380</x>
       <y>80</y>
-      <width>161</width>
+      <width>191</width>
       <height>31</height>
      </rect>
     </property>
@@ -391,7 +391,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Generar Comanda</string>
+     <string>Generar Comprobante</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnCancelar">

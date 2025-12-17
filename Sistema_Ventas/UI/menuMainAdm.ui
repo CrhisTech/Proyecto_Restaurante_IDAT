@@ -123,7 +123,7 @@
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
-     <string>REGISTRO DE PEDIDOS</string>
+     <string>REGISTRO DE VENTAS</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnCerrar">
