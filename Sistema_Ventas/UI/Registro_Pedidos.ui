@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>616</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de Pedidos</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Categoría:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>130</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Producto:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>24</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0,0,255);</string>
+    </property>
+    <property name="text">
+     <string>Registro de Pedidos</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cboCategoria">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>90</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>[Seleccionar]</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Entradas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviches</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sopas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Frituras</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arroces</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Guarniciones</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cboProducto">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>130</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>[Seleccionar]</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chorito a la chalaca (8 und)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pulpo al olivo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Conchitas a la parmesana (8 und)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Conchitas a la chalaca (8 und)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Papa a la huancaina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tequeños de pulpa de cangrejo (8 und)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviche de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviche de pota</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviche mixto</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiradito clasico</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tiradito tricolos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ceviche de conchas negras</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Leche de tigre</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chilcano acevichado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sudado de filete de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sudado de tramboyo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sudado de chita</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parihuela de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Parihuela mixta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chupe de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chupe de camarones
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa de langostino</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa de atun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa de pulpa de cangrejo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa de pollo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Causa acevichada
+</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chicharron de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chicharron de pota</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chicharron de calamar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jalea mixta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pescado frito filete</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chita frita</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arroz con mariscos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chaufa de mariscos</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Chaufa de pescado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arroz especial</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arroz blanco</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yuca frita</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yuca sancochada</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Papa o camote</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sarsa acevichada</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Porcion de cancha</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>210</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cantidad:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnComandar">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>80</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Generar Comanda</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnCancelar">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>180</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Cancelar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnImprimir">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>130</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Imprimir</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="txtSalida">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>561</width>
+      <height>261</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>250</y>
+      <width>561</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sbCantidad">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>210</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>170</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Precio:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtPrecio">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>170</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>561</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <zorder>cboCategoria</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>cboProducto</zorder>
+   <zorder>label_4</zorder>
+   <zorder>btnComandar</zorder>
+   <zorder>btnCancelar</zorder>
+   <zorder>btnImprimir</zorder>
+   <zorder>txtSalida</zorder>
+   <zorder>line</zorder>
+   <zorder>sbCantidad</zorder>
+   <zorder>label_5</zorder>
+   <zorder>txtPrecio</zorder>
+   <zorder>line_2</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>608</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

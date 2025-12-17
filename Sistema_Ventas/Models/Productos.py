@@ -1,0 +1,52 @@
+datos_productos = {'entradas':{
+    "Chorito a la chalaca (8 und)": 25.00,
+    "Pulpo al olivo": 30.00,
+    "Conchitas a la parmesana (8 und)": 25.00,
+    "Conchitas a la chalaca (8 und)": 15.00,
+    "Papa a la huancaína": 15.00,
+    "Tequeños de pulpa de cangrejo": 28.00,},
+    'ceviches':{
+    "Ceviche de pescado": 20.00,
+    "Ceviche de pota": 18.00,
+    "Ceviche de mixto": 35.00,
+    "Tiradito clasico": 25.00,
+    "Ceviche de conchas negras": 30.00,
+    "Leche de tigre": 20.00,
+    },
+    'sopas':{
+    "Chilcano acevichado": 15.00,
+    "Sudado de filete de pescado": 30.00,
+    "Sudado de tramboyo": 35.00,
+    "Sudado de chita": 30.00,
+    "Parihuela de pescado": 20.00,
+    },
+    'causas':{
+    "Causa de pescado": 20.00,
+    "Causa de pota": 18.00,
+    "Causa de mixto": 35.00,
+    "Causa de conchas negras": 30.00,
+    "Causa de leche de tigre": 20.00,
+    },
+    'frituras':{
+    "Fritura de pescado": 20.00,
+    "Fritura de pota": 18.00,
+    "Fritura de mixto": 35.00,
+    "Fritura de conchas negras": 30.00,
+    "Fritura de leche de tigre": 20.00,
+    },
+    'arroces':{
+    "Arroz de pescado": 20.00,
+    "Arroz de pota": 18.00,
+    "Arroz de mixto": 35.00,
+    "Arroz de conchas negras": 30.00,
+    "Arroz de leche de tigre": 20.00,
+    },
+    'guarniciones':{
+    "Guarnición de pescado": 20.00,
+    "Guarnición de pota": 18.00,
+    "Guarnición de mixto": 35.00,
+    "Guarnición de conchas negras": 30.00,
+    "Guarnición de leche de tigre": 20.00,
+    },
+}
+
